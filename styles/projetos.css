@@ -1,0 +1,97 @@
+:root {
+  --background-color: #F9F8F6;
+  --accent-color: #C9B59C; 
+  --font-color: #24211d;
+  --p-font-color: #6a635c;
+  --font-family: 'Segoe UI', sans-seriff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  color: var(--font-color);
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p, span {
+  font-size: 16px;
+  color: var(--p-font-color);
+}
+
+.container {
+  padding: 0 300px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 240px;
+  align-items: center;
+  height: 60px;
+  background-color: var(--accent-color);
+}
+
+nav .logo {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav div {
+  display: flex;
+  gap: 10px;
+}
+
+nav button {
+  padding: 6px 12px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+nav button:hover {
+  background-color: #aa957e;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* test */
+main {
+  padding: 32px;
+}
+
+/* FIRST SECTION */
+.first-section svg {
+  width: 32px;
+  height: 32px;
+  fill: var(--p-font-color);
+}
+
